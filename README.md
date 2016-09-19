@@ -7,7 +7,7 @@ Laravel service provider to dump query string, with merged bindings, from anywhe
 
 ```php
 Model::where('foo', '=', 'bar')
-    ->where('this', '>' 'that')->ddSql()   <----dumps query string before the orderBy
+    ->where('this', '>' 'that')->ddSql()   //<----dumps query string before the orderBy
     ->orderBy('foo', 'desc')
     ->get();
 ```
