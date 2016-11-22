@@ -19,13 +19,12 @@ select * from model where `foo` = `bar` and `this` > `that`
 
 ## Installation
 
-Add the `ApeWare\BuilderMacros\Providers\DdSqlServiceProvider` service provider in `config/app.php`.
+Add the `ApeWare\BuilderMacros\DdSqlServiceProvider` service provider in `config/app.php`.
 
 ## Code Structure
 
     ├── src
-    │   └── Providers
-    │       └── DdSqlServiceProvider.php
+    │   └── DdSqlServiceProvider.php
     ├── .gitignore
     ├── LICENSE.txt
     ├── README.md
