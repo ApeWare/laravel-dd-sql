@@ -1,7 +1,7 @@
 # laravel-dd-sql
 Laravel service provider to dump query string, with merged bindings, from anywhere in the query chain. 
 
-> This package is no longer being supported so I can not guarantee it will continue to work in newer versions of Laravel.
+> This package is no longer being supported so I can not guarantee it will continue to work in newer versions of Laravel. Last tested in Laravel 5.
 
 ## Usage
 
